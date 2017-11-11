@@ -49,17 +49,26 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="54dp"
-                            android:orientation="horizontal">
+                            android:orientation="horizontal"
+                            android:visibility="visible">
 
                             <Button
-                                android:id="@+id/btnVolver"
+                                android:id="@+id/btnReturn"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="VOLVER" />
 
                             <Button
-                                android:id="@+id/btnEditar"
+                                android:id="@+id/btnSave"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Guardar"
+                                android:visibility="gone" />
+
+                            <Button
+                                android:id="@+id/btnEdit"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -67,6 +76,7 @@
                         </LinearLayout>
 
                         <EditText
+                            android:id="@+id/txtName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:ems="10"
@@ -98,6 +108,7 @@
                             android:textSize="30sp" />
 
                         <EditText
+                            android:id="@+id/txtEmail"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -121,6 +132,7 @@
                             android:textSize="30sp" />
 
                         <EditText
+                            android:id="@+id/txtTlf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -144,6 +156,7 @@
                             android:textSize="30sp" />
 
                         <EditText
+                            android:id="@+id/txtAddress"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -162,7 +175,7 @@
                         android:textSize="30sp" />
 
                     <DatePicker
-                        android:id="@+id/datePicker2"
+                        android:id="@+id/datePicker"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:paddingLeft="20dp"
