@@ -1,5 +1,6 @@
 package com.example.tay.entra1android;
 
+import android.content.Intent;
 import android.view.View;
 
 /**
@@ -46,6 +47,12 @@ public class MainActivityEvents implements View.OnClickListener {
             */
             this.mainActivity.setInfoCollect();
 
+        }else if(view.getId() == R.id.btnReturn){
+            //Si el botón pulsadio es el de "Volver", entonces se llama un objeto de la clase Intent para pasar de un "Activity" a otro.
+            //Además, finalizamos el "Activity" actual
+            Intent intent = new Intent(mainActivity, SecondActivity.class);
+            mainActivity.startActivity(intent);
+            mainActivity.finish();
         }
 
     }
