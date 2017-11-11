@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         llamando al constructor de mainActivityEvents
         que recibe por parámetro el MainActivity mediante la sentencia "this".
         */
-        event = new MainActivityEvents(this);
+        this.setEvent(new MainActivityEvents(this));
         //Fijamos las variables con los elementos visuales (IBOutlet)
 
         //BTN

@@ -23,7 +23,7 @@
             android:paddingTop="15dp">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnProfile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="PERFIL"
@@ -39,14 +39,14 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/txtTitleText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/txtText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="25dp"
@@ -63,7 +63,7 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/editText7"
+                    android:id="@+id/mitxttext"
                     android:layout_width="match_parent"
                     android:layout_height="264dp"
                     android:ems="10"
@@ -78,14 +78,14 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btnBack"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Anterior" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btnNext"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

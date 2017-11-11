@@ -3,4 +3,36 @@
     <string name="btnReturn">Volver</string>
     <string name="btnEdit">Editar</string>
     <string name="btnSave">Guardar</string>
+    <string name="btnProfile">Perfil</string>
+    <string name="btnBack">Anterior</string>
+    <string name="btnNext">Siguiente</string>
+    <string name="t1">Cristiano Ronaldo</string>
+    <string name="t2">Gareth Bale</string>
+    <string name="t3">Karim Bencemá</string>
+    <string name="t4">Sergio Ramos</string>
+    <string name="info1">Cristiano Ronaldo dos Santos Aveiro (Funchal, Madeira, Portugal, 5 de febrero de 1985),
+        más conocido como Cris Amancio Amaro,9​ Emilio Butragueño,10​ Pirri,11​ Paco Gento,12​ Hugo Sánchez,13​ Ferenc Puskás,
+        14​ Santillana,15​ Alfredo Di Stéfano16​ y Raúl González Blanco—,17​18​ consiguiéndolo en apenas siete temporadas en el club.</string>
+    <string name="info2">Gareth Frank Bale (Cardiff, Gales, Reino Unido, 16 de julio de 1989) es un futbolista galés que juega como
+        centrocampista o extremo en el Real Madrid Club de Fútbol de la Primera División de España.
+        Internacional absoluto con la selección galesa desde 2006, Bale debutó con 16 años y 315 días en un partido contra Trinidad
+        y Tobago, ostentando, a partir de entonces y por varios años, el récord de ser el debutante más joven en la historia del
+        combinado británico. En la actualidad es el segundo tras haber sido superado en 2013 por Harry Wilson.3​
+        Oriundo de la capital galesa Cardiff, es sobrino de Chris Pike, exdelantero y uno de los máximos anotadores históricos del
+        equipo de esa ciudad, el Cardiff City FC.4​5</string>
+    <string name="info3">Karim Mostafa Benzema (en árabe: كريم بنزيما; Lyon, Ródano-Alpes, Francia, 19 de diciembre de 1987) es un
+        futbolista francés de ascendencia argelina2​3​ que juega como delantero y su equipo actual es el Real Madrid de la Primera División
+        de España.
+        Benzema comenzó su carrera deportiva en las categorías inferiores del Olympique de Lyon y debutó con el primer equipo en 2004.
+        En sus cinco temporadas en el club francés disputó 112 partidos de liga y anotó 43 goles. En la temporada 2007-08, Benzema se
+        convirtió en el máximo goleador de la Ligue 1 con 20 goles, lo que le valió para conseguir, también, el premio al Jugador del
+        Año de la liga francesa. Tras finalizar esa temporada, el futbolista franco disputó la Eurocopa 2008 con Francia. </string>
+    <string name="info4">Sergio Ramos García (Camas, Provincia de Sevilla, España, 30 de marzo de 1986) es un futbolista español
+        que juega como defensa en el Real Madrid Club de Fútbol de la Primera División de España.3​
+        Formado en las categorías inferiores del Sevilla Fútbol Club, debutó en Primera División con el equipo hispalense en 2004.4​
+        En 2005 fichó por el Real Madrid C.F., equipo del que es capitán desde la temporada 2015/16 y con el que se ha proclamado
+        tetracampeón de Liga, tricampeón de Europa y bicampeón del mundo entre otros títulos.5​
+        Es internacional absoluto desde 2005 y capitán desde 2016 de la selección española, con la que se ha proclamado bicampeón
+        de Europa en 2008 y 2012, y campeón del mundo en 2010.6​ Además, es el futbolista europeo más joven en alcanzar las 100
+        internacionalidades con su selección.7​8</string>
 </resources>
