@@ -21,7 +21,7 @@ public class SecondActivity extends AppCompatActivity {
     public int pos;
 
 
-    //Declaramos un atributo de tipo "SecondActivityEvents" para poder usarlo para setear los "Onclick" de los botones
+    //Declaramos un atributo de tipo "SecondActivityEvents" para poder usarlo para setear los "Onclick" de los botones.
     private SeconActivityEvents event;
 
     @Override
