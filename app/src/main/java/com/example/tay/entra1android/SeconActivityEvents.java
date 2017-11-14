@@ -24,7 +24,7 @@ public class SeconActivityEvents implements View.OnClickListener {
         } else if (view.getId() == R.id.btnBack) {
             this.secondActivity.setPos(--this.secondActivity.pos);
             if (this.secondActivity.getPos() < 0) {
-                this.secondActivity.setPos(1);
+                this.secondActivity.setPos(3);
             }
             this.secondActivity.setEditableText(this.secondActivity.getPos());
 
@@ -32,7 +32,7 @@ public class SeconActivityEvents implements View.OnClickListener {
         } else if (view.getId() == R.id.btnNext) {
             this.secondActivity.setPos(++this.secondActivity.pos);
             if (this.secondActivity.getPos() > 3) {
-                this.secondActivity.setPos(1);
+                this.secondActivity.setPos(0);
             }
 
             this.secondActivity.setEditableText(this.secondActivity.getPos());

@@ -68,6 +68,9 @@ public class MainActivity extends AppCompatActivity {
         this.getBtnSave().setOnClickListener(this.getEvent());
         this.getBtnReturn().setOnClickListener(this.getEvent());
 
+        this.setInfoCollect(true);
+
+
     }
 
 
@@ -97,12 +100,23 @@ public class MainActivity extends AppCompatActivity {
         this.setYear(this.getDatePicker().getYear());
     }
 
-    public void setInfoCollect() {
-        this.getTxtName().setText(this.getName());
-        this.getTxtEmail().setText(this.getEmail());
-        this.getTxtTlf().setText(String.valueOf(this.getTlf()));
-        this.getTxtAddress().setText(this.getAdress());
-        this.getDatePicker().init(this.getYear(), this.getMonth(), this.getDay(), null);
+    public void setInfoCollect(boolean init) {
+        if (init) {
+            this.getTxtName().setText(DataHolder.MyDataHolder.getNameUser());
+            this.getTxtEmail().setText(DataHolder.MyDataHolder.getEmail());
+            this.getTxtAddress().setText(DataHolder.MyDataHolder.getAddress());
+            if (DataHolder.MyDataHolder.getTlf()!=0 && DataHolder.MyDataHolder.getDay()!=0 && DataHolder.MyDataHolder.getMonth()!=0 && DataHolder.MyDataHolder.getYear()!=0) {
+                this.getTxtTlf().setText(String.valueOf(DataHolder.MyDataHolder.getTlf()));
+                this.getDatePicker().init(DataHolder.MyDataHolder.getYear(), DataHolder.MyDataHolder.getMonth(), DataHolder.MyDataHolder.getDay(), null);
+            }
+        } else {
+            this.getTxtName().setText(this.getName());
+            this.getTxtEmail().setText(this.getEmail());
+            this.getTxtTlf().setText(String.valueOf(this.getTlf()));
+            this.getTxtAddress().setText(this.getAdress());
+            this.getDatePicker().init(this.getYear(), this.getMonth(), this.getDay(), null);
+        }
+
     }
 
 
@@ -185,6 +199,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setName(String name) {
+        DataHolder.MyDataHolder.nameUser = name;
         this.name = name;
     }
 
@@ -193,6 +208,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setEmail(String email) {
+        DataHolder.MyDataHolder.email = email;
         this.email = email;
     }
 
@@ -201,6 +217,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setAdress(String adress) {
+        DataHolder.MyDataHolder.address = adress;
         this.adress = adress;
     }
 
@@ -209,6 +226,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setTlf(int tlf) {
+        DataHolder.MyDataHolder.tlf = tlf;
         this.tlf = tlf;
     }
 
@@ -217,6 +235,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setDay(int day) {
+        DataHolder.MyDataHolder.day = day;
         this.day = day;
     }
 
@@ -225,6 +244,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setMonth(int month) {
+        DataHolder.MyDataHolder.month = month;
         this.month = month;
     }
 
@@ -233,6 +253,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setYear(int year) {
+        DataHolder.MyDataHolder.year = year;
         this.year = year;
     }
 }

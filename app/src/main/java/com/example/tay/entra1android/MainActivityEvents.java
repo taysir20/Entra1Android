@@ -45,9 +45,10 @@ public class MainActivityEvents implements View.OnClickListener {
             Por último, se llama a un método creado por nosotros para setear la información que se guardó en las variables locales
              y de este modo setearselas a los componentes en los campos correspondientes.
             */
-            this.mainActivity.setInfoCollect();
+            this.mainActivity.setInfoCollect(false);
 
         }else if(view.getId() == R.id.btnReturn){
+
             //Si el botón pulsadio es el de "Volver", entonces se llama un objeto de la clase Intent para pasar de un "Activity" a otro.
             //Además, finalizamos el "Activity" actual
             Intent intent = new Intent(this.mainActivity, SecondActivity.class);
